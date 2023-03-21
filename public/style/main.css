@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.flex-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+header {
+  padding: 40px;
+}
+
+table tbody tr:first-child td:last-child #top {
+  display: none;
+}
+
+table tbody tr:last-child td:last-child #buttom {
+  display: none;
+}
